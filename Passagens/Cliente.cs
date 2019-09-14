@@ -10,7 +10,7 @@ namespace Passagens
     [DataContract]
     public class Cliente
     {
-        [DataMember]
+        [DataMember]        
         public string Nome { get; set; }
         [DataMember]
         public string Cpf { get; set; }

@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passagens", "Passagens\Pass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hosting", "Hosting\Hosting.csproj", "{A9C2138D-60D2-409B-8D4C-A0CB6C762F50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgenciaTurismo", "C:\Users\Centrino\source\repos\AgenciaTurismo\AgenciaTurismo\AgenciaTurismo.csproj", "{46086770-FF8A-467B-B90C-B6C546D820E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06C9F7D8-7D64-4F79-8CA5-21CAEC076DE4} = {06C9F7D8-7D64-4F79-8CA5-21CAEC076DE4}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{A9C2138D-60D2-409B-8D4C-A0CB6C762F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9C2138D-60D2-409B-8D4C-A0CB6C762F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9C2138D-60D2-409B-8D4C-A0CB6C762F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46086770-FF8A-467B-B90C-B6C546D820E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46086770-FF8A-467B-B90C-B6C546D820E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46086770-FF8A-467B-B90C-B6C546D820E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46086770-FF8A-467B-B90C-B6C546D820E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
